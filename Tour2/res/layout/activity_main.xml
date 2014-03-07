@@ -1,0 +1,84 @@
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="horizontal"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:shrinkColumns="*"  android:stretchColumns="*" android:background="#d3d3d3"> 
+   
+  
+     <TextView android:id="@+id/label" android:layout_width="fill_parent" android:textSize="28sp"      	   
+   			   android:gravity="center"
+               android:layout_height="wrap_content" android:text="Tour Main Menu" />
+     <TextView android:id="@+id/label" android:layout_width="fill_parent"
+         	   android:gravity="center"
+         	   android:textSize="15sp" android:textStyle="bold"
+   			   android:textColor="#000000" android:shadowColor="#8a6603"
+   			   android:shadowDx="3" android:shadowDy="2" android:shadowRadius="1.8"
+               android:layout_height="wrap_content" android:text="There are 47 passengers" />
+     
+ 	 <!-- Row 1 with single column -->
+ 	 <TableRow 
+        android:id="@+id/tableRow1" 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent">  
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_1" />            
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_2" />
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_3" />
+
+    </TableRow> 
+    <TableRow 
+        android:id="@+id/tableRow1" 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent">  
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_4" />            
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_5" />
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_6" />
+
+    </TableRow> 
+    <TableRow 
+        android:id="@+id/tableRow1" 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent">  
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_7" />            
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_8" />
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_9" />
+
+    </TableRow> 
+     
+</TableLayout>
